@@ -1,0 +1,91 @@
+body{
+    font-family: Roboto;
+    background: url('img 1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container{
+    background: transparent;
+    padding: 30px;
+    width: 320px;
+    border-radius: 8px;
+    border: 1px solid white;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.055);
+}
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: white;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+.input-group label{
+    margin-bottom: 8px;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+.input-group input:focus{
+    color: white;
+}
+.input-group input{
+    border-radius: 13px;
+    border: 1px solid white;
+    padding: 12px 12px 12px 40px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+}
+.input-icon{
+    left: 12px;
+    top: 38px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+.input-group input:focus::placeholder{
+    color: transparent;
+}
+.input-group input::placeholder{
+    color: white;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(247, 0, 255);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.842);
+    box-shadow: 0 5px #00000009;
+}
+button:hover{
+    cursor: pointer;
+}
+.forgot-password{
+    text-align: center;
+    margin-top: 15px;
+}
+.forgot-password a{
+    text-decoration: none;
+    color: white;
+}
+.forgot-password a:hover{
+    text-decoration: underline;
+}
+ @media (max-width: 420px) {
+    .login-container{
+        border: none;
+    }
+ }

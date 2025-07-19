@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form with html and css</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <i class='bx bxs-user input-icon'></i>
+                <input type="text" name="username" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <i class='bx bxs-lock-alt input-icon'></i>
+                <input type="password" name="password" id="username" placeholder="Password" required>
+            </div>
+            <button type="submit">Login</button>
+            <div class="forgot-password">
+                <a href="#">Forgot password</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
